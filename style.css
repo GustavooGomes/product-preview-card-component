@@ -1,0 +1,82 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+#cabecalho {
+    width: 600px;
+    height: 450px;
+    margin-left: 700px;
+    margin-top: 150px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    
+}
+
+.gabrielle {
+    font-family: 'Montserrat';
+    
+}
+
+.perfume {
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 3px;
+}
+
+.textos {
+    margin-left: 25px;
+}
+
+.floral {
+    font-family: 'Fraunces';
+}
+
+
+.imagem {
+    height: 450px;
+    width: 320px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.preco1 {
+    font-family: 'Fraunces';
+}
+
+.preco2 {
+    font-family: 'Fraunces';
+    translate: 130px -50px;
+    display: flex;
+    text-decoration: line-through;
+}
+
+
+.botao {
+    display: flex;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Fraunces';
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+svg {
+    translate: 60px -28px;
+}
+
+#botao {
+    translate: 0px -10px;
+}
+
+.attribution {
+    margin-right: 80px;
+}
+
+.botao:hover {
+    background-color: hsl(158, 36%, 25%);
+}
